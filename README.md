@@ -5,7 +5,7 @@ It is aimed to test your own implementation of landmark based SLAM,for instance,
 
 ![img](https://github.com/DaojunZhu/2DLandMarkSLAMSimEnv/blob/master/slam_data_sim/sim.png)
 
-**Red path:**  True path of robot motion 
+**Red path:**  True path of robot motion
 
 **Green path:**  Dead reckoning path from odometery information
 
@@ -17,13 +17,15 @@ It is aimed to test your own implementation of landmark based SLAM,for instance,
 
 **"/NodeName/odom: "** The odometry measurement
 
+
 **/NodeName/observations:** The current landmarks measurement, whos ROS message type is *slam_data_sim/RangeBearingObsData*
 
 
 **slam_data_sim/RangeBearingObsData:**
-  Header header
-  int64[] ids
-  float64[] ranges
-  float64[] angles
+
+  Header header <br/>
+  int64[] ids <br/>
+  float64[] ranges <br/>
+  float64[] angles <br/>
 
 
