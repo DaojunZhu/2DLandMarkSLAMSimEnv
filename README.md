@@ -18,14 +18,14 @@ It is aimed to test your own implementation of landmark based SLAM,for instance,
 **"/NodeName/odom: "** The odometry measurement
 
 
-**/NodeName/observations:** The current landmarks measurement, whos ROS message type is *slam_data_sim/RangeBearingObsData*
+**"/NodeName/observations:"** The current landmarks measurement, whos ROS message type is *slam_data_sim/RangeBearingObsData*
 
 
-**slam_data_sim/RangeBearingObsData:**
-
+**slam_data_sim/RangeBearingObsData:** <br/>
   Header header <br/>
   int64[] ids <br/>
   float64[] ranges <br/>
   float64[] angles <br/>
 
 
+**If you have any issues, please feel free to contack me through daojun@mail.ustc.edu.cn**
