@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="slam_data_sim" type="generate_sim_data" name="slam_data_sim" output="screen">
+        <param name="angular_velocity" value="0.1"/> 
+        <param name="control_noise_v" value="0.2"/>
+        <param name="control_noise_w" value="5.0"/>
+        <param name="obs_noise_r" value="0.0"/>
+        <param name="obs_noise_angle" value="0.0"/>
+        <param name="max_obs_range" value="3.0"/>
+    </node>
+</launch>
